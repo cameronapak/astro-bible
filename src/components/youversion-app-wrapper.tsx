@@ -1,5 +1,5 @@
-import { YouVersionProvider, BibleReader } from '@youversion/platform-react-ui'
-import { type ReactElement } from 'react'
+import { BibleReader, YouVersionProvider } from '@youversion/platform-react-ui'
+import type { ReactElement } from 'react'
 
 export function YouVersionAppWrapper({
   children,
