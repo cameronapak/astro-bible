@@ -20,7 +20,7 @@ export function YouVersionAppWrapper({
 export function App({ appKey, authRedirectUrl }: { appKey: string; authRedirectUrl: string }) {
   return (
     <YouVersionAppWrapper appKey={appKey} authRedirectUrl={authRedirectUrl}>
-      <BibleReader.Root>
+      <BibleReader.Root defaultVersionId={3034}>
         <BibleReader.Content />
         <BibleReader.Toolbar />
       </BibleReader.Root>

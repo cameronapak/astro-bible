@@ -13,6 +13,6 @@ import '../styles/global.css'
     <title>Astro</title>
   </head>
   <body class="h-full w-full">
-    <App appKey={YVP_PUBLIC_APP_KEY} authRedirectUrl={Astro.url.origin} client:only="react" />
+    <App appKey={YVP_PUBLIC_APP_KEY} authRedirectUrl={'https://localhost:3000/callback'} client:only="react" />
   </body>
 </html>
