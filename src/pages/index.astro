@@ -1,9 +1,9 @@
 ---
 import { YVP_PUBLIC_APP_KEY } from 'astro:env/client'
-import { YouVersionAppWrapper } from '../components/youversion-app-wrapper'
+import { App } from '../components/youversion-app-wrapper'
 ---
 
-<html lang="en">
+<html lang="en" class="h-svh w-full">
   <head>
     <meta charset="utf-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
@@ -11,10 +11,7 @@ import { YouVersionAppWrapper } from '../components/youversion-app-wrapper'
     <meta name="generator" content={Astro.generator} />
     <title>Astro</title>
   </head>
-  <body>
-    <h1>Astro</h1>
-    <YouVersionAppWrapper appKey={YVP_PUBLIC_APP_KEY} client:only="react">
-      <h1>hi</h1>
-    </YouVersionAppWrapper>
+  <body class="h-svh w-full">
+    <App appKey={YVP_PUBLIC_APP_KEY} authRedirectUrl={Astro.url.origin} client:only="react" />
   </body>
 </html>
