@@ -9,8 +9,8 @@ export function App({ appKey }: { appKey: string }) {
   return (
     <YouVersionAppWrapper appKey={appKey}>
       <BibleReader.Root defaultVersionId={3034}>
-        <BibleReader.Content />
         <BibleReader.Toolbar />
+        <BibleReader.Content />
       </BibleReader.Root>
     </YouVersionAppWrapper>
   )
