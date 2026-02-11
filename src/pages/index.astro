@@ -12,7 +12,8 @@ import '../styles/global.css'
     <meta name="generator" content={Astro.generator} />
     <title>Astro</title>
   </head>
+
   <body class="h-full w-full">
-    <App appKey={YVP_PUBLIC_APP_KEY} authRedirectUrl={'https://localhost:3000/callback'} client:only="react" />
+    <App appKey={YVP_PUBLIC_APP_KEY} authRedirectUrl={'http://localhost:3000/callback'} client:only="react" />
   </body>
 </html>

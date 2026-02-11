@@ -1,4 +1,4 @@
-# Astro Bible
+bun run # Astro Bible
 
 A simple Bible app created using [YouVersion's React Web SDK](https://developers.youversion.com/sdks/react) in [Astro web framework](https://astro.build).
 

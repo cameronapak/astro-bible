@@ -1,25 +1,13 @@
 import { BibleReader, YouVersionProvider } from '@youversion/platform-react-ui'
 import type { ReactElement } from 'react'
 
-export function YouVersionAppWrapper({
-  children,
-  appKey,
-  authRedirectUrl,
-}: {
-  children: ReactElement
-  appKey: string
-  authRedirectUrl: string
-}) {
-  return (
-    <YouVersionProvider appKey={appKey} includeAuth={true} authRedirectUrl={authRedirectUrl}>
-      {children}
-    </YouVersionProvider>
-  )
+export function YouVersionAppWrapper({ children, appKey }: { children: ReactElement; appKey: string }) {
+  return <YouVersionProvider appKey={appKey}>{children}</YouVersionProvider>
 }
 
-export function App({ appKey, authRedirectUrl }: { appKey: string; authRedirectUrl: string }) {
+export function App({ appKey }: { appKey: string }) {
   return (
-    <YouVersionAppWrapper appKey={appKey} authRedirectUrl={authRedirectUrl}>
+    <YouVersionAppWrapper appKey={appKey}>
       <BibleReader.Root defaultVersionId={3034}>
         <BibleReader.Content />
         <BibleReader.Toolbar />
