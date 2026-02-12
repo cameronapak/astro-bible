@@ -1,1 +1,2 @@
-@import "tailwindcss";
+@import 'tailwindcss';
+@import '../components/bearnie/styles/bearnie.css';
