@@ -1,6 +1,7 @@
 ---
 import { YVP_PUBLIC_APP_KEY } from 'astro:env/client'
 import { App } from '../components/youversion-app-wrapper'
+import NavTabBar from '../components/nav-tab-bar.astro'
 import '../styles/global.css'
 ---
 
@@ -14,6 +15,7 @@ import '../styles/global.css'
   </head>
 
   <body class="h-full w-full">
+    <NavTabBar />
     <App appKey={YVP_PUBLIC_APP_KEY} client:only="react" />
   </body>
 </html>
