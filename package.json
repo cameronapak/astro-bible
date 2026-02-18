@@ -14,12 +14,12 @@
     "@tailwindcss/vite": "^4.1.18",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
-    "@youversion/platform-react-ui": "^1.14.0",
+    "@youversion/platform-react-ui": "^1.14.3",
     "astro": "^5.17.2",
     "clsx": "^2.1.1",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
-    "tailwind-merge": "^3.4.0",
+    "tailwind-merge": "^3.4.1",
     "tailwindcss": "^4.1.18"
   }
 }
