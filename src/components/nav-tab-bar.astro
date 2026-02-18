@@ -2,6 +2,9 @@
 import Button from './bearnie/button/Button.astro'
 ---
 
-<header class="max-w-sm mx-auto px-4">
-  <Button variant="outline">Outline</Button>
+<header class="max-w-lg grid grid-cols-4 gap-2 mx-auto p-4 border-b border-border">
+  <Button href="/" variant={Astro.url.pathname === '/' ? 'default' : 'outline'}>Bible</Button>
+  <Button disabled variant={Astro.url.pathname === '/votd' ? 'default' : 'outline'}>VOTD</Button>
+  <Button disabled variant={Astro.url.pathname === '/bible-card' ? 'default' : 'outline'}>BibleCard</Button>
+  <Button disabled variant={Astro.url.pathname === '/auth' ? 'default' : 'outline'}>Auth</Button>
 </header>
