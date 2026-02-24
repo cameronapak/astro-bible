@@ -7,13 +7,11 @@ export function YouVersionAppWrapper({ children, appKey }: { children: ReactElem
 
 export function App({ appKey }: { appKey: string }) {
   return (
-    <main className="max-h-[calc(100svh-69px)]">
-      <YouVersionAppWrapper appKey={appKey}>
-        <BibleReader.Root defaultVersionId={3034}>
-          <BibleReader.Toolbar />
-          <BibleReader.Content />
-        </BibleReader.Root>
-      </YouVersionAppWrapper>
-    </main>
+    <YouVersionAppWrapper appKey={appKey}>
+      <BibleReader.Root defaultVersionId={3034}>
+        <BibleReader.Toolbar />
+        <BibleReader.Content />
+      </BibleReader.Root>
+    </YouVersionAppWrapper>
   )
 }
