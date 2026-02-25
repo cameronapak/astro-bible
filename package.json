@@ -15,7 +15,7 @@
     "@tailwindcss/vite": "^4.2.1",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
-    "@youversion/platform-react-ui": "^1.16.0",
+    "@youversion/platform-react-ui": "^1.17.0",
     "astro": "^5.17.3",
     "clsx": "^2.1.1",
     "react": "^19.2.4",
