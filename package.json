@@ -10,13 +10,13 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/netlify": "^6.6.4",
+    "@astrojs/netlify": "^6.6.5",
     "@astrojs/react": "^4.4.2",
     "@tailwindcss/vite": "^4.2.1",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
-    "@youversion/platform-react-ui": "^1.20.0",
-    "astro": "^5.18.0",
+    "@youversion/platform-react-ui": "^1.20.1",
+    "astro": "^5.18.1",
     "clsx": "^2.1.1",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
