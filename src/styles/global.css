@@ -1,5 +1,5 @@
 @import 'tailwindcss';
-@import '../components/bearnie/styles/bearnie.css';
+/*@import '../components/bearnie/styles/bearnie.css';*/
 
 .prose {
   --prose-color: var(--muted-foreground);
