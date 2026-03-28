@@ -10,17 +10,17 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/netlify": "^6.6.5",
-    "@astrojs/react": "^4.4.2",
-    "@tailwindcss/vite": "^4.2.1",
+    "@astrojs/netlify": "^7.0.5",
+    "@astrojs/react": "^5.0.2",
+    "@tailwindcss/vite": "^4.2.2",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
-    "@youversion/platform-react-ui": "^1.20.1",
-    "astro": "^5.18.1",
+    "@youversion/platform-react-ui": "^1.22.1",
+    "astro": "^6.1.1",
     "clsx": "^2.1.1",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
     "tailwind-merge": "^3.5.0",
-    "tailwindcss": "^4.2.1"
+    "tailwindcss": "^4.2.2"
   }
 }
