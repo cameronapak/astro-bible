@@ -1,0 +1,19 @@
+---
+import { YVP_PUBLIC_APP_KEY } from 'astro:env/client'
+import { Callback } from '../components/youversion-app-wrapper'
+import '../styles/global.css'
+---
+
+<html lang="en" class="h-svh w-full">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>Signing in…</title>
+  </head>
+
+  <body class="grid grid-rows-1 max-h-svh w-full">
+    <Callback appKey={YVP_PUBLIC_APP_KEY} client:only="react" />
+  </body>
+</html>
