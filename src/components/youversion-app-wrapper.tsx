@@ -53,8 +53,8 @@ export function App({ appKey }: { appKey: string }) {
         {/* `auto` shows Sign In when signed out and Sign Out when signed in.
             `profile` scope is required to get the user's name and photo back;
             without it the token exchange succeeds but no profile is returned,
-            so the user never reads as authenticated. */}
-        <YouVersionAuthButton mode="auto" scopes={['profile']} />
+            so the user never reads as authenticated. `email` adds the address. */}
+        <YouVersionAuthButton mode="auto" scopes={['profile', 'email']} />
       </div>
     </YouVersionAppWrapper>
   )
