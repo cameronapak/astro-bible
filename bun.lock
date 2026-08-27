@@ -10,7 +10,7 @@
         "@tailwindcss/vite": "^4.2.2",
         "@types/react": "^19.2.14",
         "@types/react-dom": "^19.2.3",
-        "@youversion/platform-react-ui": "^2.4.0",
+        "@youversion/platform-react-ui": "^2.11.0",
         "astro": "^6.1.1",
         "clsx": "^2.1.1",
         "react": "^19.2.4",
@@ -776,11 +776,11 @@
 
     "@xstate/react": ["@xstate/react@6.1.0", "", { "dependencies": { "use-isomorphic-layout-effect": "^1.1.2", "use-sync-external-store": "^1.2.0" }, "peerDependencies": { "react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0", "xstate": "^5.28.0" }, "optionalPeers": ["xstate"] }, "sha512-ep9F0jGTI63B/jE8GHdMpUqtuz7yRebNaKv8EMUaiSi29NOglywc2X2YSOV/ygbIK+LtmgZ0q9anoEA2iBSEOw=="],
 
-    "@youversion/platform-core": ["@youversion/platform-core@2.4.0", "", { "dependencies": { "zod": "4.1.12" }, "peerDependencies": { "linkedom": "^0.18.12" }, "optionalPeers": ["linkedom"] }, "sha512-2TV7rFxCKbigbnxt4TMcsOX+iQjWAyG2EClGpCqdmgTHAJbS/m454JVjvAINKd2uYxfVVnTHYX1BYyOPiSjfQg=="],
+    "@youversion/platform-core": ["@youversion/platform-core@2.11.0", "", { "dependencies": { "zod": "4.1.12" }, "peerDependencies": { "jsdom": "^24.0.0 || ^28.0.0" }, "optionalPeers": ["jsdom"] }, "sha512-5jYO4nIYV823RofZqnKJjoM8/M4/NvsRjsJ3iC6J9Jm/GoWkbRGgkJ5sZAwp1ZcptL9sgDBCCpHD5IM0/7cyYQ=="],
 
-    "@youversion/platform-react-hooks": ["@youversion/platform-react-hooks@2.4.0", "", { "dependencies": { "@youversion/platform-core": "2.4.0" }, "peerDependencies": { "react": ">=19.1.0 <20.0.0" } }, "sha512-DNFOxTBtNoeOP6BlwPf7RhmruizSa/oNB9NVKexaNSUpXpFML+X0wjM4US2VLYPa28YQ0i2kdy2AOg6w/y8R+Q=="],
+    "@youversion/platform-react-hooks": ["@youversion/platform-react-hooks@2.11.0", "", { "dependencies": { "@youversion/platform-core": "2.11.0" }, "peerDependencies": { "react": ">=19.1.0 <20.0.0" } }, "sha512-R+INX5rKxcTvsynbd5BwUf+PO4FgAtuwDVj6hhZcQPQuZyzNvaQehfsXf5qTycRazW5PSeAFXDn8AO+PIMY2/A=="],
 
-    "@youversion/platform-react-ui": ["@youversion/platform-react-ui@2.4.0", "", { "dependencies": { "@radix-ui/react-accordion": "1.2.12", "@radix-ui/react-dialog": "1.1.15", "@radix-ui/react-popover": "1.1.15", "@radix-ui/react-separator": "1.1.7", "@radix-ui/react-slot": "1.2.3", "@radix-ui/react-tabs": "1.1.13", "@radix-ui/react-use-controllable-state": "^1.2.2", "@xstate/react": "^6.1.0", "@youversion/platform-core": "2.4.0", "@youversion/platform-react-hooks": "2.4.0", "better-result": "2.9.2", "class-variance-authority": "0.7.1", "clsx": "2.1.1", "i18next": "^26.0.0", "radix-ui": "^1.4.3", "react-i18next": "^17.0.0", "tailwind-merge": "3.3.1", "tw-animate-css": "1.4.0", "xstate": "5.32.4" }, "peerDependencies": { "react": ">=19.1.0 <20.0.0", "react-dom": ">=19.1.0 <20.0.0" } }, "sha512-HpRskk6oaHYTfR2txasWxUUa+HheAlzZZO0ceTZK6QLQzt9i3u5oXUT5ao0n7bqGdPb9VUfxZqgb658Ep8zCdg=="],
+    "@youversion/platform-react-ui": ["@youversion/platform-react-ui@2.11.0", "", { "dependencies": { "@radix-ui/react-accordion": "1.2.12", "@radix-ui/react-dialog": "1.1.15", "@radix-ui/react-popover": "1.1.15", "@radix-ui/react-separator": "1.1.7", "@radix-ui/react-slot": "1.2.3", "@radix-ui/react-tabs": "1.1.13", "@radix-ui/react-use-controllable-state": "^1.2.2", "@xstate/react": "^6.1.0", "@youversion/platform-core": "2.11.0", "@youversion/platform-react-hooks": "2.11.0", "better-result": "2.9.2", "class-variance-authority": "0.7.1", "clsx": "2.1.1", "i18next": "^26.0.0", "radix-ui": "^1.4.3", "react-i18next": "^17.0.0", "tailwind-merge": "3.3.1", "tw-animate-css": "1.4.0", "xstate": "5.32.4" }, "peerDependencies": { "react": ">=19.1.0 <20.0.0", "react-dom": ">=19.1.0 <20.0.0" } }, "sha512-++g94qDsEkg4J7cUFJQ5oAU+baJ3hUIuYgCC2qsHPzM2ZGGDnc2Gu3v8feWNOSSqy8twGP+lykCvqpSEpzbhiQ=="],
 
     "abbrev": ["abbrev@3.0.1", "", {}, "sha512-AO2ac6pjRB3SJmGJo+v5/aK6Omggp6fsLrs6wN9bd35ulu4cCwaAU9+7ZhXjeqHVkaHThLuzH0nZr0YpCDhygg=="],
 
