@@ -10,13 +10,13 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/netlify": "^7.0.5",
-    "@astrojs/react": "^5.0.2",
-    "@tailwindcss/vite": "^4.2.2",
+    "@astrojs/netlify": "^8.2.14",
+    "@astrojs/react": "^7.1.9",
+    "@tailwindcss/vite": "^4.3.5",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
     "@youversion/platform-react-ui": "^2.11.0",
-    "astro": "^6.1.1",
+    "astro": "^7.4.13",
     "clsx": "^2.1.1",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
@@ -24,6 +24,10 @@
     "tailwindcss": "^4.2.2"
   },
   "devDependencies": {
-    "netlify-cli": "^26.1.0"
+    "netlify-cli": "^27.20.0"
+  },
+  "overrides": {
+    "@vercel/nft": "^1.11.7",
+    "zod": "^4.6.7"
   }
 }
